@@ -1,0 +1,5 @@
+*.pkl
+/ProyectAPI
+/__pycache__
+task_controller.py
+/controllers/__pycache__
