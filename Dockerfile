@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY modelo_logist.pkl .
 
-COPY main.py .
+COPY main_1.py .
 
-ENTRYPOINT [ "python", "main.py" ]
+ENTRYPOINT [ "python", "main_1.py" ]
